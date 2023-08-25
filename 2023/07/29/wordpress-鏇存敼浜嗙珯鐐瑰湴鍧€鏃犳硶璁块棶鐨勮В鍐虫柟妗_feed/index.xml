@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	《WordPress 更改了站点地址无法访问的解决方案》的评论	</title>
+	<atom:link href="/2023/07/29/wordpress-%E6%9B%B4%E6%94%B9%E4%BA%86%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9D%80%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/feed/" rel="self" type="application/rss+xml" />
+	<link>/2023/07/29/wordpress-%e6%9b%b4%e6%94%b9%e4%ba%86%e7%ab%99%e7%82%b9%e5%9c%b0%e5%9d%80%e6%97%a0%e6%b3%95%e8%ae%bf%e9%97%ae%e7%9a%84%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/</link>
+	<description>深圳大学电子协会</description>
+	<lastBuildDate>Sun, 30 Jul 2023 16:32:52 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+</channel>
+</rss>

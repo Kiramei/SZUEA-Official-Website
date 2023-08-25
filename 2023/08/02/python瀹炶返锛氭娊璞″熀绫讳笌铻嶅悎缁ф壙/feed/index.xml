@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	《Python实践：抽象基类与融合继承》的评论	</title>
+	<atom:link href="/2023/08/02/python%E5%AE%9E%E8%B7%B5%EF%BC%9A%E6%8A%BD%E8%B1%A1%E5%9F%BA%E7%B1%BB%E4%B8%8E%E8%9E%8D%E5%90%88%E7%BB%A7%E6%89%BF/feed/" rel="self" type="application/rss+xml" />
+	<link>/2023/08/02/python%e5%ae%9e%e8%b7%b5%ef%bc%9a%e6%8a%bd%e8%b1%a1%e5%9f%ba%e7%b1%bb%e4%b8%8e%e8%9e%8d%e5%90%88%e7%bb%a7%e6%89%bf/</link>
+	<description>深圳大学电子协会</description>
+	<lastBuildDate>Wed, 02 Aug 2023 07:04:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+</channel>
+</rss>

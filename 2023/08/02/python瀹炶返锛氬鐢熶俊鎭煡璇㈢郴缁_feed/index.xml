@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	《Python实践：学生信息查询系统》的评论	</title>
+	<atom:link href="/2023/08/02/python%E5%AE%9E%E8%B7%B5%EF%BC%9A%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2%E7%B3%BB%E7%BB%9F/feed/" rel="self" type="application/rss+xml" />
+	<link>/2023/08/02/python%e5%ae%9e%e8%b7%b5%ef%bc%9a%e5%ad%a6%e7%94%9f%e4%bf%a1%e6%81%af%e6%9f%a5%e8%af%a2%e7%b3%bb%e7%bb%9f/</link>
+	<description>深圳大学电子协会</description>
+	<lastBuildDate>Wed, 02 Aug 2023 07:27:36 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+</channel>
+</rss>

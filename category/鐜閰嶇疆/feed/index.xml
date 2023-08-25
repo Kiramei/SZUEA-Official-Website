@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>环境配置归档 - SZUEA</title>
+	<atom:link href="/category/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/feed/" rel="self" type="application/rss+xml" />
+	<link>/category/环境配置/</link>
+	<description>深圳大学电子协会</description>
+	<lastBuildDate>Wed, 09 Aug 2023 17:27:31 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2023/08/8db18b66e5f38cff2edcf70d931da83e-3.png</url>
+	<title>环境配置归档 - SZUEA</title>
+	<link>/category/环境配置/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>如何用vscode配置C语言环境？</title>
+		<link>/2023/07/29/%e5%a6%82%e4%bd%95%e7%94%a8vscode%e9%85%8d%e7%bd%aec%e8%af%ad%e8%a8%80%e7%8e%af%e5%a2%83%ef%bc%9f/</link>
+					<comments>/2023/07/29/%e5%a6%82%e4%bd%95%e7%94%a8vscode%e9%85%8d%e7%bd%aec%e8%af%ad%e8%a8%80%e7%8e%af%e5%a2%83%ef%bc%9f/#respond</comments>
+		
+		<dc:creator><![CDATA[SZUEA]]></dc:creator>
+		<pubDate>Fri, 28 Jul 2023 19:16:51 +0000</pubDate>
+				<category><![CDATA[未分类]]></category>
+		<category><![CDATA[环境配置]]></category>
+		<guid isPermaLink="false">http://szuea.com:8081/?p=180</guid>
+
+					<description><![CDATA[<p>&#160;&#20107;&#23454;&#19978;&#26412;&#31687;&#25991;&#038; &#8230;</p>
+<p><a rel="nofollow" href="/2023/07/29/%e5%a6%82%e4%bd%95%e7%94%a8vscode%e9%85%8d%e7%bd%aec%e8%af%ad%e8%a8%80%e7%8e%af%e5%a2%83%ef%bc%9f/">如何用vscode配置C语言环境？</a>最先出现在<a rel="nofollow" href="/">SZUEA</a>。</p>
+]]></description>
+										<content:encoded><![CDATA[<p class="wp-block-paragraph ">&nbsp;&#20107;&#23454;&#19978;&#26412;&#31687;&#25991;&#26723;&#20889;&#20110;&#27492;&#26102;&#65292;&#26159;&#20026;&#20102;&#36814;&#25509;&#25105;&#20204;&#31038;&#22242;&#20013;&#30340;&#21487;&#29233;&#30340;&#26032;&#21516;&#23398;&#20204;&#30340;&#65292;&#24050;&#32463;&#26377;&#22909;&#22810;&#26032;&#21516;&#23398;&#38382;&#65292;&ldquo;&#23398;&#38271;&#65292;C&#35821;&#35328;&#30340;&#29615;&#22659;&#24590;&#20040;&#37197;&#32622;&#21568;&ldquo;&#65292;&rdquo;&#23398;&#38271;&#65292;vscode&#24590;&#20040;&#29992;&#21568;&ldquo;&#65292;&#20110;&#26159;&#25105;&#20889;&#19979;&#36825;&#31687;&#65288;&#24182;&#19981;&#20837;&#38376;&#30340;&#65289;&#19996;&#35199;&#65292;&#26469;&#25945;&#23398;&#24351;&#23398;&#22969;&#20204;&#22312;windows&#20013;&#37197;&#32622;&#19968;&#19979;vscode&#30340;&#29615;&#22659;&#12290;</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem"><span style="display:block;padding:16px 0 0 16px;margin-bottom:-1px;width:100%;text-align:left;background-color:#282A36"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle><circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle><circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle></g></svg></span><span role="button" tabindex="0" data-code="#include
+int main () {
+    printf(&quot;hello world&quot;);
+}" style="color:#F8F8F2;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v8.25A2.25 2.25 0 006 16.5h2.25m8.25-8.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-7.5A2.25 2.25 0 018.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 00-2.25 2.25v6"></path></svg></span><pre class="shiki dracula" style="background-color: #282A36" tabindex="0"><code><span class="line"><span style="color: #FF79C6">#include</span></span>
+<span class="line"><span style="color: #FF79C6">int</span><span style="color: #F8F8F2"> </span><span style="color: #50FA7B">main</span><span style="color: #F8F8F2"> () {</span></span>
+<span class="line"><span style="color: #F8F8F2">    </span><span style="color: #50FA7B">printf</span><span style="color: #F8F8F2">(</span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">hello world</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">);</span></span>
+<span class="line"><span style="color: #F8F8F2">}</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#282A36;color:#efefe1;font-size:12px;line-height:1;position:relative">C++</span></div>
+
+
+<p class="wp-block-paragraph ">&#26412;&#25991;&#19981;&#20165;&#20250;&#35762;&#35299;&#22914;&#20309;&#21435;&#37197;&#32622;&#29615;&#22659;&#65292;&#20063;&#20250;&#35762;&#35299;&#20026;&#20160;&#20040;&#35201;&#37197;&#32622;&#36825;&#26679;&#30340;&#29615;&#22659;&#65292;&#26088;&#22312;&#24110;&#21161;&#23398;&#24351;&#23398;&#22969;&#20204;&#22312;&#37197;&#32622;&#30340;&#36807;&#31243;&#20013;&#23545;&#35745;&#31639;&#26426;&#31995;&#32479;&#20135;&#29983;&#21021;&#27493;&#30340;&#20102;&#35299;&#12290;</p>
+
+
+<p class="wp-block-paragraph "><b>&#24544;&#24515;&#25552;&#31034;&#65292;&#20986;&#20110;&#19968;&#20123;&#20247;&#25152;&#21608;&#30693;&#30340;&#21407;&#22240;&#65292;&#22312;&#38405;&#35835;&#26412;&#25991;&#20043;&#21069;&#20320;&#26368;&#22909;&#26377;&#21150;&#27861;&#33021;&#31283;&#23450;&#65292;&#36805;&#36895;&#36830;&#19978;github&#65281;</b></p>
+
+
+<p class="wp-block-paragraph ">&#39318;&#20808;&#25105;&#35201;&#35299;&#37322;&#19968;&#19979;&#65292;&#20160;&#20040;&#21483;&rdquo;&#37197;&#32622;&#29615;&#22659;&ldquo;&#65311;&#25105;&#20204;&#21040;&#24213;&#35201;&#37197;&#32622;&#20160;&#20040;&#65311;</p>
+
+
+<p class="wp-block-paragraph ">&#35201;&#22238;&#31572;&#36825;&#20010;&#38382;&#39064;&#65292;&#25105;&#20204;&#39318;&#20808;&#35201;&#31895;&#27973;&#30340;&#20102;&#35299;&#19968;&#19979;C&#35821;&#35328;&#20174;&#20195;&#30721;&#25991;&#26412;&#21464;&#25104;&#30495;&#27491;&#21487;&#36816;&#34892;&#30340;&#31243;&#24207;&#30340;&#12290;</p>
+
+
+<p class="wp-block-paragraph ">&nbsp;</p>
+
+
+<p class="wp-block-paragraph ">&#22914;&#26524;&#22823;&#23478;&#26377;&#22312;dev-cpp&#20043;&#31867;&#30340;&#36719;&#20214;&#21435;&#23454;&#36341;&#36807;&#30340;&#35805;&#65292;&#20250;&#30475;&#21040;&#36825;&#20010;&#31243;&#24207;&#26368;&#21518;&#20250;&#22312;&#32456;&#31471;&#31383;&#21475;&#20013;&#36755;&#20986;&#65306;</p>
+
+
+
+<div class="highlight"><code class="language-text">hello world</code></div>
+
+
+<p class="wp-block-paragraph ">&#20854;&#23454;&#20174;&#20195;&#30721;&#25991;&#26412;&#65292;&#21040;&#31243;&#24207;&#25191;&#34892;&#30340;&#25972;&#20010;&#36807;&#31243;&#20180;&#32454;&#23637;&#24320;&#26469;&#35762;&#38750;&#24120;&#22797;&#26434;&#65292;&#25105;&#21482;&#31616;&#35201;&#30340;&#27010;&#25324;&#19968;&#19979;&#65306;</p>
+
+
+<p class="wp-block-paragraph ">&#39318;&#20808;&#65292;&#27599;&#19968;&#20221;&#21333;&#29420;&#30340; C&#35821;&#35328;&#25991;&#20214;&#65288;&#31216;&#20026;&#28304;&#25991;&#20214;&#65292;&#21518;&#32512;&#26159; .c&#65289;&#30340;&#20195;&#30721;&#25991;&#26412;&#20250;&#36827;&#20837;<b>&#32534;&#35793;&#22120;</b>&#65292;&#32534;&#35793;&#22120;&#20250;&#23558;&#27599;&#19968;&#20221;&#28304;&#25991;&#20214;&#36716;&#25442;&#20026;&#23545;&#24212;&#30340;&#26426;&#22120;&#33021;&#35782;&#21035;&#30340;<b>&#27719;&#32534;&#20195;&#30721;</b>&#25991;&#20214;&#65288;&#21518;&#32512;&#19968;&#33324;&#26159; .s&#25110;&#32773; .asm&#65289;&#65292;&#32780;&#27719;&#32534;&#20195;&#30721;&#21448;&#20250;&#34987;&#32534;&#35793;&#22120;&#36827;&#19968;&#27493;&#22788;&#29702;&#65292;&#29983;&#25104;&#23545;&#24212;&#30340;<b>&#26426;&#22120;&#20195;&#30721;</b>&#25991;&#20214;&#65292;&#25110;&#32773;&#31216;&#20026;<b>&#30446;&#26631;&#25991;&#20214;</b>&#65288;&#21518;&#32512;&#19968;&#33324;&#26159; .o&#65289;&#65292;&#36825;&#37324;&#26377;&#19968;&#28857;&#35201;&#23588;&#20854;&#27880;&#24847;&#28304;&#25991;&#20214;&#21644;&#30446;&#26631;&#25991;&#20214;&#26159;&#19968;&#19968;&#23545;&#24212;&#30340;&#20851;&#31995;&#65292;&#20063;&#23601;&#26159; main.c&#20250;&#34987;&#32534;&#35793;&#29983;&#25104; main.o&#65292;test.c&#20250;&#34987;&#32534;&#35793;&#29983;&#25104; test.o&#12290;</p>
+
+
+<p class="wp-block-paragraph ">&#32780;&#32534;&#35793;&#22120;&#29983;&#25104;&#30340;&#30446;&#26631;&#25991;&#20214;&#65292;&#26368;&#32456;&#20250;&#34987;&#25171;&#21253;&#32473;&#38142;&#25509;&#22120;&#65292;&#38142;&#25509;&#22120;&#20250;&#26681;&#25454;&#22810;&#20010;&#30446;&#26631;&#25991;&#20214;&#20197;&#21450;&#20854;&#35843;&#29992;&#30340;&#24211;&#25991;&#20214;&#65292;&#26469;&#29983;&#25104;&#26368;&#32456;&#30340;<b>&#21487;&#25191;&#34892;&#25991;&#20214;</b>&#65288;&#19968;&#33324;&#27809;&#26377;&#21518;&#32512;&#25110;&#32773;&#21518;&#32512;&#20026; .exe&#65289;&#65292;&#21487;&#25191;&#34892;&#25991;&#20214;&#21487;&#20197;&#22312;&#35745;&#31639;&#26426;&#19978;&#30452;&#25509;&#36816;&#34892;&#65292;&#32780;&#29992;&#21629;&#20196;&#34892;&#31383;&#21475;&#21152;&#36733;&#36825;&#20010;&#25991;&#20214;&#65292;&#23601;&#21487;&#20197;&#24471;&#21040;&nbsp;<b>hello world</b>&#30340;&#26368;&#32456;&#36755;&#20986;&#32467;&#26524;&#20102;&#12290;</p>
+
+
+<p class="wp-block-paragraph ">&#32780;&#23454;&#38469;&#36807;&#31243;&#36824;&#26377;&#26080;&#25968;&#30340;&#32454;&#33410;&#35201;&#21435;&#28145;&#31350;&#65292;&#25105;&#20204;&#22312;&#27492;&#19981;&#20877;&#20570;&#23637;&#24320;&#65292;&#27605;&#31455;&#36825;&#26159;&#19968;&#31687;&#20837;&#38376;&#21521;&#30340;&#25945;&#31243;&#12290;</p>
+
+
+<p class="wp-block-paragraph ">&#22238;&#21040;&#25105;&#20204;&#30340;&#27491;&#39064;&#65292;&#22914;&#20309;&#37197;&#32622;vscode&#29615;&#22659;&#21602;&#65311;</p>
+
+
+<p class="wp-block-paragraph ">&#25105;&#20204;&#39318;&#20808;&#35201;&#20102;&#35299;&#20960;&#20010;&#20851;&#38190;&#35789;&#65306;</p>
+
+
+<p class="wp-block-paragraph "><b>vscode&#65292;GCC&#65292;MinGW&#65292;MakeFile&#65292;CMake</b></p>
+
+
+<p class="wp-block-paragraph ">1.vscode&#65306;&#20840;&#31216;&#20026;<b>visual studio code</b>&#65292;&#26159;&#19968;&#20010;&#20195;&#30721;&#32534;&#36753;&#22120;&#65292;&#20182;&#36319;dev-cpp&#30340;&#21306;&#21035;&#22312;&#20110;&#65292;dev-cpp&#38598;&#25104;&#20102;&#19968;&#25972;&#22871;&#23436;&#25972;&#30340;&#32534;&#35793;&#65292;&#38142;&#25509;&#21040;&#36816;&#34892;&#21152;&#36733;&#30340;&#24037;&#20855;&#20197;&#21450;&#26631;&#20934;&#24211;&#25991;&#20214;&#65292;&#22240;&#27492;&#30456;&#24403;&#20110;&rdquo;&#21040;&#25163;&#21363;&#29992;&ldquo;&#30340;&#19968;&#20010;&#24037;&#20855;&#65292;&#32780;vscode&#20165;&#20165;&#21482;&#26377;&#32534;&#20889;&#20195;&#30721;&#30340;&#21151;&#33021;&#65292;&#24182;&#27809;&#26377;&#20854;&#20182;&#30340;&#32534;&#35793;&#65292;&#38142;&#25509;&#65292;&#21152;&#36733;&#36816;&#34892;&#20195;&#30721;&#30340;&#21151;&#33021;&#65292;&#32780;&#25105;&#20204;&#37197;&#29615;&#22659;&#30340;&#24037;&#20316;&#21017;&#22260;&#32469;&#30528;&rdquo;&#32534;&#35793;&#65292;&#38142;&#25509;&#65292;&#21152;&#36733;&#36816;&#34892;&ldquo;&#36825;&#20960;&#20010;&#20851;&#38190;&#28857;&#21435;&#23637;&#24320;&#12290;</p>
+
+
+<p class="wp-block-paragraph ">2.GCC&#65306;&#20840;&#31216;&#20026;<b>GNU C Compiler</b>&#65292;&#20063;&#23601;&#26159;GNU C&#35821;&#35328;&#32534;&#35793;&#22120;&#65292;GNU&#26159;&#19968;&#20010;&#24320;&#28304;&#35745;&#21010;&#65292;&#32780;GCC&#21017;&#26159;&#25105;&#20204;&#19978;&#38754;&#25552;&#21040;&#30340;&#32534;&#35793;&#65292;&#38142;&#25509;&#20013;&#30340;&#37325;&#35201;&#30340;&#19968;&#29615;&mdash;&mdash;&#27809;&#38169;&#65292;GCC&#26159;&#19968;&#22871;&#23436;&#25972;&#30340;&#24037;&#20855;&#38142;&#65292;&#34429;&#28982;&#21517;&#20026;&#32534;&#35793;&#22120;&#65292;&#20294;&#26159;&#20182;&#38598;&#25104;&#20102;&#32534;&#35793;&#22120;&#65292;&#38142;&#25509;&#22120;&#36825;&#20123;&#37325;&#35201;&#30340;&#24037;&#20855;</p>
+
+
+<p class="wp-block-paragraph ">GCC&#36890;&#36807;&#21487;&#20197;&#36890;&#36807;&#21629;&#20196;&#34892;&#65288;&#20351;&#29992;cmd&#65289;&#26469;&#29983;&#25104;&#21487;&#25191;&#34892;&#25991;&#20214;&#65292;&#26368;&#31616;&#21333;&#30340;&#22914;&#19979;&#25152;&#31034;:</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem"><span style="display:block;padding:16px 0 0 16px;margin-bottom:-1px;width:100%;text-align:left;background-color:#282A36"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle><circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle><circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle></g></svg></span><span role="button" tabindex="0" data-code="gcc main.c" style="color:#F8F8F2;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v8.25A2.25 2.25 0 006 16.5h2.25m8.25-8.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-7.5A2.25 2.25 0 018.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 00-2.25 2.25v6"></path></svg></span><pre class="shiki dracula" style="background-color: #282A36" tabindex="0"><code><span class="line"><span style="color: #50FA7B">gcc</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">main.c</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#282A36;color:#efefe1;font-size:12px;line-height:1;position:relative">ShellScript</span></div>
+
+
+<p class="wp-block-paragraph ">&#25110;&#32773;&#26159;</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem"><span style="display:block;padding:16px 0 0 16px;margin-bottom:-1px;width:100%;text-align:left;background-color:#282A36"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle><circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle><circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle></g></svg></span><span role="button" tabindex="0" data-code="gcc main.c -o main" style="color:#F8F8F2;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v8.25A2.25 2.25 0 006 16.5h2.25m8.25-8.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-7.5A2.25 2.25 0 018.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 00-2.25 2.25v6"></path></svg></span><pre class="shiki dracula" style="background-color: #282A36" tabindex="0"><code><span class="line"><span style="color: #50FA7B">gcc</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">main.c</span><span style="color: #F8F8F2"> </span><span style="color: #BD93F9">-o</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">main</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#282A36;color:#efefe1;font-size:12px;line-height:1;position:relative">ShellScript</span></div>
+
+
+<p class="wp-block-paragraph ">&#36825;&#26465;&#21629;&#20196;&#34920;&#31034;&#23558;&#19968;&#20010;main.c&#25991;&#20214;&#32534;&#35793;&#20026;&#19968;&#20010;&#21517;&#20026;main&#30340;&#21487;&#25191;&#34892;&#25991;&#20214;&#65292;&#22914;&#22270;&#25152;&#31034;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic3.zhimg.com/80/v2-3564413e82acfe8c62e497b15057ea52_720w.webp" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">3.MinGW&#65306;&#20840;&#31216;&#20026;<b>Minimalist GNU for Windows</b>&#65292;&#20063;&#23601;&#26159;Windows&#19978;&#30340;&#26368;&#23567;&#21487;&#29992;GNU&#24037;&#20855;&#38142;&#65292;&#20182;&#21253;&#21547;&#19968;&#25972;&#22871;GNU&#24037;&#20855;&#38142;&#20197;&#21450;Windows&#19979;&#30340;GNU&#24037;&#20855;&#38142;&#30340;&#20381;&#36182;&#24211;&#65292;&#20801;&#35768;&#20320;&#22312;Windows&#19978;&#20351;&#29992;gcc&#24037;&#20855;&#38142;&#21435;&#32534;&#35793;&#19968;&#20010;&#23436;&#25972;&#30340;&#39033;&#30446;</p>
+
+
+<p class="wp-block-paragraph ">4.MakeFile&#65306;&rdquo;&#26500;&#24314;&ldquo;&#30340;&#24847;&#24605;&#23601;&#26159;&#23558;&#23545;&#19968;&#20010;&#39033;&#30446;&#25191;&#34892;&#32534;&#35793;&#19982;&#38142;&#25509;&#65292;&#26368;&#32456;&#24418;&#25104;&#21487;&#25191;&#34892;&#25991;&#20214;&#65292;&#32780;GNU Make&#23601;&#26159;&#19968;&#20010;&#26500;&#24314;&#24037;&#20855;&#65292;&#20182;&#20250;&#26597;&#25214;&#24403;&#21069;&#39033;&#30446;&#30340;&#26681;&#30446;&#24405;&#26159;&#21542;&#23384;&#22312;MakeFile&#25991;&#20214;&#65292;&#28982;&#21518;&#36816;&#34892;MakeFile&#25991;&#20214;&#30340;&#33050;&#26412;</p>
+
+
+<p class="wp-block-paragraph ">&#21487;&#20197;&#25226;MakeFile&#29702;&#35299;&#20026;&#19968;&#20010;&#24110;&#20320;&#36816;&#34892;&#19978;&#38754;&#25105;&#20204;&#28436;&#31034;&#36807;&#30340; gcc&#30340;&#21629;&#20196;&#30340;&#24037;&#20855;&#65292;&#36825;&#37324;&#25105;&#20204;&#19981;&#38656;&#35201;&#30693;&#36947;&#20855;&#20307;&#22914;&#20309;&#20889;MakeFile&#65292;&#24863;&#20852;&#36259;&#21487;&#20197;&#33258;&#24049;&#21435;&#25628;&#32034;MakeFile&#30340;&#20855;&#20307;&#30340;&#35821;&#27861;</p>
+
+
+<p class="wp-block-paragraph ">5.CMake&#65306;&#20063;&#26159;&#19968;&#20010;&#26500;&#24314;&#24037;&#20855;&#65292;&#20294;&#26159;&#20182;&#26159;&#29983;&#25104;MakeFile&#29992;&#30340;&#65292;&#20855;&#20307;&#30340;CMake&#30340;&#26356;&#22810;&#32454;&#33410;&#19981;&#22312;&#26412;&#31687;&#20837;&#38376;&#25945;&#31243;&#30340;&#33539;&#30068;&#20869;&#65292;&#35835;&#32773;&#24863;&#20852;&#36259;&#20063;&#21487;&#33258;&#34892;&#21435;&#20102;&#35299;</p>
+
+
+<p class="wp-block-paragraph ">&#37027;&#20040;&#65292;&#35828;&#20102;&#36825;&#20040;&#22810;&#65292;&#35835;&#32773;&#20204;&#24212;&#35813;&#23545;&#36825;&#20010;&#31243;&#24207;&#22914;&#20309;&#36816;&#34892;&#65292;&#20197;&#21450;&#25105;&#20204;&#38656;&#35201;&#21435;&#37197;&#20160;&#20040;&#29615;&#22659;&#65292;&#26377;&#20102;&#19968;&#23450;&#30340;&#20102;&#35299;&#20102;&#65292;&#20854;&#23454;&#25105;&#20204;&#35201;&#20570;&#30340;&#20107;&#24773;&#38750;&#24120;&#31616;&#21333;&#65292;&#39318;&#20808;&#32599;&#21015;&#19968;&#20010;&#28165;&#21333;</p>
+
+
+<p class="wp-block-paragraph ">1.&#19979;&#36733;MinGW&#65292;&#33719;&#24471;GNU&#24037;&#20855;&#38142;</p>
+
+
+<p class="wp-block-paragraph ">2.&#19979;&#36733;CMake&#65292;&#33719;&#21462;&#26500;&#24314;&#24037;&#20855;&#65292;&#22240;&#20026;CMake&#29983;&#25104;MakeFile&#65292;&#32780;GNU Make&#21487;&#20197;&#20195;&#26367;&#25105;&#20204;&#26500;&#24314;&#39033;&#30446;&#65292;&#33719;&#24471;&#21487;&#25191;&#34892;&#25991;&#20214;</p>
+
+
+<p class="wp-block-paragraph ">3.&#37197;&#32622;vscode&#65292;&#19979;&#36733;&#23545;&#24212;&#30340;C/C++&#25554;&#20214;&#21644; CMake Tools&#25554;&#20214;&#65292;&#35753;vscode&#33021;&#22815;&#35843;&#29992;CMake&#21644;gcc&#32534;&#35793;&#24037;&#20855;&#38142;</p>
+
+
+<h3 class="wp-block-heading wp-block-heading" id="e4b88be8bdbdmingwe5b9b6e9858de7bdae">&#19979;&#36733;MinGW&#24182;&#37197;&#32622;</h3>
+
+
+<p class="wp-block-paragraph "><a href="https://github.com/skeeto/w64devkit/releases">&#30452;&#25509;&#21040;&#36798;MinGW&#30340;github&#23448;&#32593;&#30340;release&#39029;&#38754;</a>&#65292;&#36873;&#25321;&nbsp;<a class="wrap external" rel="nofollow noopener noreferrer" data-za-detail-view-id="1043" href="https://link.zhihu.com/?target=http%3A//w64devkit-1.19.0.zip/" target="_blank">w64devkit-1.19.0.zip</a>&#65292;&#30452;&#25509;&#23601;&#33021;&#19979;&#36733;&#65292;&#19979;&#36733;&#22909;&#21518;&#65292;&#35299;&#21387;&#65292;&#21487;&#20197;&#24471;&#21040;&#19968;&#20010;&#23436;&#25972;&#30340;MinGW&#24037;&#20855;&#38142;&#65306;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic4.zhimg.com/v2-ac07a3f2326dd276c9bb21fd9d43847b_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#23558;w64devkit&#25991;&#20214;&#22841;&#25918;&#21040;&#19968;&#20010;&#20320;&#21916;&#27426;&#30340;&#22320;&#26041;&#65292;&#31508;&#32773;&#36825;&#37324;&#25918;&#21040;&#20102;E&#30424;&#65306;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic1.zhimg.com/v2-df28479f8c93563338564da416f6a734_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#28982;&#21518;&#25105;&#20204;&#23558;&#36825;&#20010;&#25991;&#20214;&#22841;&#30340; bin&#25991;&#20214;&#22841;&#28155;&#21152;&#21040;<b>&#29615;&#22659;&#21464;&#37327;</b></p>
+
+
+<p class="wp-block-paragraph ">PS&#65306;&#29615;&#22659;&#21464;&#37327;&#26159;&#20160;&#20040;&#21602;&#65311;</p>
+
+
+<p class="wp-block-paragraph ">&#24403;&#20320;&#38656;&#35201;&#36816;&#34892;&#26576;&#20010;&#37325;&#35201;&#30340;&#31243;&#24207;&#30340;&#26102;&#20505;&#65292;&#20320;&#30340;&#25805;&#20316;&#31995;&#32479;&#19981;&#21487;&#33021;&#32473;&#20320;&#25226;&#25972;&#20010;&#30913;&#30424;&#25628;&#32034;&#19968;&#36941;&#26469;&#25214;&#21040;&#36825;&#20010;&#31243;&#24207;&#65292;&#36825;&#26679;&#25928;&#29575;&#38750;&#24120;&#20302;&#65292;&#25152;&#20197;&#20320;&#21487;&#20197;&#23558;&#36825;&#20010;&#25991;&#20214;&#30340;&#30446;&#24405;&#28155;&#21152;&#21040;&#29615;&#22659;&#21464;&#37327;&#65292;&#37027;&#26679;&#25805;&#20316;&#31995;&#32479;&#19979;&#27425;&#23601;&#20250;&#20174;&#29615;&#22659;&#21464;&#37327;&#20013;&#30340;&#30446;&#24405;&#24320;&#22987;&#25628;&#32034;&#25991;&#20214;&#30340;&#36335;&#24452;&#65292;&#36825;&#26679;&#33021;&#22815;&#21313;&#20998;&#39640;&#25928;&#22320;&#26597;&#25214;&#25152;&#38656;&#30340;&#31243;&#24207;</p>
+
+
+<p class="wp-block-paragraph ">&#28155;&#21152;&#29615;&#22659;&#21464;&#37327;&#30340;&#21150;&#27861;&#65306;</p>
+
+
+<p class="wp-block-paragraph ">&#22312;windows&#30340;&#25628;&#32034;&#26694;&#20013;&#36755;&#20837;&rdquo;&#29615;&#22659;&#21464;&#37327;&ldquo;&#65292;&#20294;&#26159;&#27880;&#24847;&#27880;&#24847;&#65292;&#36825;&#37324;&#26377;&#20004;&#20010;&#32467;&#26524;&#65292;&#19968;&#23450;&#35201;<b>&#32534;&#36753;&#36134;&#25143;&#30340;&#29615;&#22659;&#21464;&#37327;</b>&#65306;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic4.zhimg.com/v2-2e0c513976090fd950fb1953761051b3_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#28857;&#20987;<b>Path</b>&#21464;&#37327;&#65292;&#28982;&#21518;&#28857;&#20987;&#32534;&#36753;&#65288;&#21035;&#28857;&#25104;&#26032;&#24314;&#65289;&#65306;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic4.zhimg.com/v2-e2371ba1ddeee3fe1ed2ac704761ed3f_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#21040;&#36825;&#37324;&#20197;&#21518;&#65292;&#28857;&#20987;&#21491;&#20391;&#30340;&#26032;&#24314;&#65292;&#28982;&#21518;&#25226;&#23545;&#24212;&#30340; E:\w64devkit\bin&#65288;&#35760;&#24471;&#35843;&#25972;&#25104;&#20320;&#33258;&#24049;&#30340;bin&#30340;&#32477;&#23545;&#36335;&#24452;&#65289; &#30340;&#32477;&#23545;&#36335;&#24452;&#36755;&#20837;&#36827;&#21435;&#23601;&#22909;&#65306;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic3.zhimg.com/v2-12cf9935854d38bee2dc2d30301f4b5a_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#25509;&#30528;&#19968;&#36335;&#30830;&#23450;&#23601;&#21487;&#20197;&#20102;</p>
+
+
+<p class="wp-block-paragraph ">&#22914;&#20309;&#39564;&#35777;&#20320;&#25104;&#21151;&#23433;&#35013;&#20102;MinGW&#21602;&#65311;</p>
+
+
+<p class="wp-block-paragraph ">&#21516;&#26102;&#25353;&#20303; win&#38190; + R&#65292;&#36755;&#20837;cmd&#65292;&#28857;&#30830;&#23450;&#65306;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic2.zhimg.com/v2-7297c6da45cdcb10a7ea13a12d4de275_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#22312;&#21629;&#20196;&#34892;&#20013;&#36755;&#20837;<code><b>gcc -v</b></code>&#65306;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic2.zhimg.com/v2-64e8a25dda8329c62d5fe764d3fd9dd1_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#20986;&#29616;&#19968;&#22823;&#20018;&#20449;&#24687;&#20197;&#21450;gcc version&#30340;&#26102;&#20505;&#23601;&#21487;&#20197;&#30830;&#23450;&#33258;&#24049;&#23433;&#35013;&#25104;&#21151;&#20102;&#65281;</p>
+
+
+<h3 class="wp-block-heading wp-block-heading" id="e5ae89e8a385cmakee5b9b6e9858de7bdae">&#23433;&#35013;CMake&#24182;&#37197;&#32622;</h3>
+
+
+
+<div class="RichText-LinkCardContainer"><a class="LinkCard new css-1wr1m8" href="https://link.zhihu.com/?target=https%3A//cmake.org/download/" target="_blank" rel="noopener" data-draft-node="block" data-draft-type="link-card" data-text="Download | CMake" data-za-detail-view-id="172"><span class="LinkCard-contents"><span class="LinkCard-title two-line">Download | CMake</span><span class="LinkCard-desc">​cmake.org/download/</span></span></a></div>
+
+
+<p class="wp-block-paragraph ">&#30452;&#25509;&#21040;&#36798;&#23448;&#32593;&#65292;&#24182;&#25214;&#21040;Platform&#30340;Windows X64 Installer&#65292;&#24320;&#22987;&#19979;&#36733;&#21363;&#21487;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic4.zhimg.com/v2-0209762861f559471209820c9de29fdb_r.jpg" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic4.zhimg.com/v2-65471234e7b6a6dc26aba821d86dd89f_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#36816;&#34892;&#23433;&#35013;&#31243;&#24207;&#65292;&#19968;&#36335;&#30830;&#23450;&#21363;&#21487;&#65292;&#28982;&#21518;&#25226;&#23433;&#35013;&#36335;&#24452;&#19979;&#30340; cmake\\bin&#21516;&#26679;&#20002;&#36827;&#21435;&#29615;&#22659;&#21464;&#37327;&#65292;&#26368;&#21518;&#20877;&#29992;cmd &#36755;&#20837;&#21629;&#20196;&nbsp;<b>cmake &#8211;version</b>&#39564;&#35777;&#19968;&#19979;&#23433;&#35013;&#21363;&#21487;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic4.zhimg.com/v2-2f4b2f7509d8701a9a4db796555a1aaf_r.jpg" alt=""/></figure>
+
+
+<h3 class="wp-block-heading wp-block-heading" id="e9858de7bdaevscode">&#37197;&#32622;vscode</h3>
+
+
+<p class="wp-block-paragraph ">&#25171;&#24320;vscode&#65292;&#28857;&#20987;&#24038;&#20391;&#30340;Extension&#65292;&#22312;&#25628;&#32034;&#26694;&#36755;&#20837;C/C++&#65292;&#28857;&#20987;&#21069;&#19977;&#20010;&#19979;&#36733;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic2.zhimg.com/v2-7c4ad2f24611a7d60c786071646455c5_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#21516;&#26679;&#30340;&#65292;&#22312;&#25628;&#32034;&#26694;&#36755;&#20837; CMake&#65292;&#28857;&#20987;&#21069;&#20004;&#20010;&#19979;&#36733;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic1.zhimg.com/v2-3bb4489dba9a600b0eeac276b0536e4c_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#25353;F1&#65292;&#28857;&#20987;CMake:Quick Start</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic3.zhimg.com/v2-585d78d8c9324fcfdec409e7ee4388ae_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#36215;&#22909;&#21517;&#23383; &#36873;&#25321; Create a C Project</p>
+
+
+<p class="wp-block-paragraph ">&#28982;&#21518;&#19968;&#23450;&#35201;&#36873;Executable&#65281;</p>
+
+
+<p class="wp-block-paragraph ">&#39033;&#30446;&#21019;&#24314;&#23436;&#27605;&#20197;&#21518;&#25928;&#26524;&#22914;&#19979; &#65306;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic2.zhimg.com/v2-f04e204962456e84289ad55d060ddeb5_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph "><b>&#27492;&#22788;&#21487;&#33021;&#23384;&#22312;&#20854;&#20182;bug&#65292;&#31508;&#32773;&#20808;&#25366;&#20010;&#22353;&#65292;&#26377;&#31354;&#20877;&#26356;&#26032;&#36825;&#22359;</b></p>
+
+
+<p class="wp-block-paragraph ">&#25353;&#19979; shift+F5&#21363;&#21487;&#30475;&#21040;Terminal&#36755;&#20986;&#25191;&#34892;&#32467;&#26524;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic2.zhimg.com/v2-100513218044c68ef563699321636e69_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#28982;&#21518;&#22312; .vscode&#25991;&#20214;&#22841;&#19979;&#26032;&#24314; launch.json&#65292;&#24182;&#23558;&#19979;&#38754;&#30340; json&#35821;&#21477;&#30452;&#25509;&#22797;&#21046;&#36827;&#21435;</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem"><span style="display:block;padding:16px 0 0 16px;margin-bottom:-1px;width:100%;text-align:left;background-color:#282A36"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle><circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle><circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle></g></svg></span><span role="button" tabindex="0" data-code="{
+    &quot;version&quot;: &quot;0.2.0&quot;,
+    &quot;configurations&quot;: [
+        {
+            &quot;name&quot;: &quot;(gdb) Launch&quot;,
+            &quot;type&quot;: &quot;cppdbg&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            // Resolved by CMake Tools:
+            &quot;program&quot;: &quot;${command:cmake.launchTargetPath}&quot;,
+            &quot;args&quot;: [],
+            &quot;stopAtEntry&quot;: false,
+            &quot;cwd&quot;: &quot;${workspaceFolder}&quot;,
+            &quot;environment&quot;: [
+                {
+                    // add the directory where our target was built to the PATHs
+                    // it gets resolved by CMake Tools:
+                    &quot;name&quot;: &quot;PATH&quot;,
+                    &quot;value&quot;: &quot;${env:PATH}:${command:cmake.getLaunchTargetDirectory}&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;OTHER_VALUE&quot;,
+                    &quot;value&quot;: &quot;Something something&quot;
+                }
+            ],
+            &quot;MIMode&quot;: &quot;gdb&quot;,
+            &quot;setupCommands&quot;: [
+                {
+                    &quot;description&quot;: &quot;Enable pretty-printing for gdb&quot;,
+                    &quot;text&quot;: &quot;-enable-pretty-printing&quot;,
+                    &quot;ignoreFailures&quot;: true
+                }
+            ]
+        }
+    ]
+}" style="color:#F8F8F2;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v8.25A2.25 2.25 0 006 16.5h2.25m8.25-8.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-7.5A2.25 2.25 0 018.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 00-2.25 2.25v6"></path></svg></span><pre class="shiki dracula" style="background-color: #282A36" tabindex="0"><code><span class="line"><span style="color: #F8F8F2">{</span></span>
+<span class="line"><span style="color: #F8F8F2">    </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">version</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">0.2.0</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">    </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">configurations</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> [</span></span>
+<span class="line"><span style="color: #F8F8F2">        {</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">name</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">(gdb) Launch</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">type</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">cppdbg</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">request</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">launch</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #6272A4">// Resolved by CMake Tools:</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">program</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">${command:cmake.launchTargetPath}</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">args</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> [],</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">stopAtEntry</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #BD93F9">false</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">cwd</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">${workspaceFolder}</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">environment</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> [</span></span>
+<span class="line"><span style="color: #F8F8F2">                {</span></span>
+<span class="line"><span style="color: #F8F8F2">                    </span><span style="color: #6272A4">// add the directory where our target was built to the PATHs</span></span>
+<span class="line"><span style="color: #F8F8F2">                    </span><span style="color: #6272A4">// it gets resolved by CMake Tools:</span></span>
+<span class="line"><span style="color: #F8F8F2">                    </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">name</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">PATH</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">                    </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">value</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">${env:PATH}:${command:cmake.getLaunchTargetDirectory}</span><span style="color: #E9F284">&quot;</span></span>
+<span class="line"><span style="color: #F8F8F2">                },</span></span>
+<span class="line"><span style="color: #F8F8F2">                {</span></span>
+<span class="line"><span style="color: #F8F8F2">                    </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">name</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">OTHER_VALUE</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">                    </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">value</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">Something something</span><span style="color: #E9F284">&quot;</span></span>
+<span class="line"><span style="color: #F8F8F2">                }</span></span>
+<span class="line"><span style="color: #F8F8F2">            ],</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">MIMode</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">gdb</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">            </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">setupCommands</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> [</span></span>
+<span class="line"><span style="color: #F8F8F2">                {</span></span>
+<span class="line"><span style="color: #F8F8F2">                    </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">description</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">Enable pretty-printing for gdb</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">                    </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">text</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #E9F284">&quot;</span><span style="color: #F1FA8C">-enable-pretty-printing</span><span style="color: #E9F284">&quot;</span><span style="color: #F8F8F2">,</span></span>
+<span class="line"><span style="color: #F8F8F2">                    </span><span style="color: #8BE9FE">&quot;</span><span style="color: #8BE9FD">ignoreFailures</span><span style="color: #8BE9FE">&quot;</span><span style="color: #FF79C6">:</span><span style="color: #F8F8F2"> </span><span style="color: #BD93F9">true</span></span>
+<span class="line"><span style="color: #F8F8F2">                }</span></span>
+<span class="line"><span style="color: #F8F8F2">            ]</span></span>
+<span class="line"><span style="color: #F8F8F2">        }</span></span>
+<span class="line"><span style="color: #F8F8F2">    ]</span></span>
+<span class="line"><span style="color: #F8F8F2">}</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#282A36;color:#efefe1;font-size:12px;line-height:1;position:relative">JSON</span></div>
+
+
+<p class="wp-block-paragraph ">&#25630;&#23450;&#21518;&#20445;&#23384;&#65292;&#25928;&#26524;&#22914;&#19979;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic4.zhimg.com/v2-9e772707c5304d0e2e78bb6a96b83a1b_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#38543;&#20415;&#25171;&#19968;&#20010;&#26029;&#28857;&#65292;&#25509;&#30528;&#25353;&#19979;F5&#21551;&#21160;&#35843;&#35797;&#65292;&#21457;&#29616;vscode&#23558;&#26029;&#28857;&#20572;&#22312;&#20102;&#36825;&#37324;&#65292;&#35828;&#26126;&#26029;&#28857;&#35843;&#35797;&#25104;&#21151;&#20102;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://pic4.zhimg.com/v2-3243560ec6151bf6aedc9fe516d52c93_r.jpg" alt=""/></figure>
+
+
+<p class="wp-block-paragraph ">&#28982;&#21518;&#25105;&#20204;&#30340;&#29615;&#22659;&#37197;&#32622;&#23601;&#21040;&#27492;&#32467;&#26463;&#21862;&#65292;&#24076;&#26395;&#23545;&#21508;&#20301;&#26377;&#24110;&#21161;&#65281;</p>
+
+
+<p class="wp-block-paragraph ">&#35835;&#32773;&#36935;&#21040;&#20160;&#20040;&#29305;&#27530;&#30340;bug&#25110;&#32773;&#26377;&#20160;&#20040;&#38656;&#35201;&#34917;&#20805;&#30340;&#27426;&#36814;&#22312;&#35780;&#35770;&#21306;&#30041;&#35328;&#12290;</p>
+
+
+<p class="wp-block-paragraph alignright has-text-align-right alignright">&#26412;&#25991;&#20316;&#32773;&mdash;&mdash;&#24029;&#27969;</p>
+<p><a rel="nofollow" href="/2023/07/29/%e5%a6%82%e4%bd%95%e7%94%a8vscode%e9%85%8d%e7%bd%aec%e8%af%ad%e8%a8%80%e7%8e%af%e5%a2%83%ef%bc%9f/">如何用vscode配置C语言环境？</a>最先出现在<a rel="nofollow" href="/">SZUEA</a>。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2023/07/29/%e5%a6%82%e4%bd%95%e7%94%a8vscode%e9%85%8d%e7%bd%aec%e8%af%ad%e8%a8%80%e7%8e%af%e5%a2%83%ef%bc%9f/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Vue前端开发环境配置</title>
+		<link>/2023/07/29/vue%e5%89%8d%e7%ab%af%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae/</link>
+					<comments>/2023/07/29/vue%e5%89%8d%e7%ab%af%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae/#respond</comments>
+		
+		<dc:creator><![CDATA[SZUEA]]></dc:creator>
+		<pubDate>Fri, 28 Jul 2023 17:28:07 +0000</pubDate>
+				<category><![CDATA[未分类]]></category>
+		<category><![CDATA[环境配置]]></category>
+		<guid isPermaLink="false">http://szuea.com:8081/?p=165</guid>
+
+					<description><![CDATA[<p>&#19968;&#12289; &#38656;&#35201;&#23433;&#35013;&#3034 &#8230;</p>
+<p><a rel="nofollow" href="/2023/07/29/vue%e5%89%8d%e7%ab%af%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae/">Vue前端开发环境配置</a>最先出现在<a rel="nofollow" href="/">SZUEA</a>。</p>
+]]></description>
+										<content:encoded><![CDATA[<h5 class="wp-block-heading wp-block-heading" id="e4b880e38081-e99c80e8a681e5ae89e8a385e79a84e8bdafe4bbb6efbc88windows-10efbc89">&#19968;&#12289; &#38656;&#35201;&#23433;&#35013;&#30340;&#36719;&#20214;&#65288;Windows 10&#65289;</h5>
+
+
+<ul style="" class="wp-block-list ">
+<li>git&#19979;&#36733;&#65288;&#29256;&#26412;&#25511;&#21046;&#24037;&#20855;&#65289;<ul style="" class="wp-block-list ">
+<li><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a></li>
+</ul>
+</li>
+
+
+
+<li>node.js&#19979;&#36733; &#65288;JavaScript&#29615;&#22659;&#65289;<ul style="" class="wp-block-list ">
+<li><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a></li>
+</ul>
+</li>
+
+
+
+<li>yarn&#19979;&#36733;&#65288;&#21253;&#31649;&#29702;&#22120;&#65289;<ul style="" class="wp-block-list ">
+<li><a href="https://classic.yarnpkg.com/zh-Hans/docs/install/#windows-stable" target="_blank" rel="noopener">https://classic.yarnpkg.com/zh-Hans/docs/install/#windows-stable</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h5 class="wp-block-heading wp-block-heading" id="e4ba8ce38081-e5ae89e8a385-git">&#20108;&#12289; &#23433;&#35013; Git</h5>
+
+
+<p class="wp-block-paragraph ">&#27809;&#26377;&#20160;&#20040;&#35201;&#29305;&#21035;&#27880;&#24847;&#30340;&#65292;&#19968;&#33324;&#30452;&#25509;&#25353;next&#21363;&#21487;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/cfe6b2478d.png" alt="image.png"/></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/92b199422a.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#36825;&#37324;&#21487;&#20197;&#22810;&#36873;&#26368;&#21518;&#20004;&#39033;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/94b1d67bdf.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#36825;&#37324;&#37319;&#29992;VSCode&#20316;&#20026;Git&#30340;&#32534;&#36753;&#22120;</p>
+
+
+<p class="wp-block-paragraph "><img decoding="async" style="width: 100%;" src="https://oj.szuea.com/public/upload/7d9969711b.png" alt="image.png"><br><img decoding="async" style="width: 100%;" src="https://oj.szuea.com/public/upload/fd76fed063.png" alt="image.png"><img decoding="async" style="width: 100%;" src="https://oj.szuea.com/public/upload/b5cbd977fc.png" alt="image.png"><br><img decoding="async" style="width: 100%;" src="https://oj.szuea.com/public/upload/b91694ead9.png" alt="image.png">&#12289;</p>
+
+
+<p class="wp-block-paragraph ">&#36873;&#25321;Launch Git Bash&#65292;&#23433;&#35013;&#23436;&#25104;&#21518;&#20250;&#33258;&#21160;&#24377;&#20986;Bash&#21629;&#20196;&#34892;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/8d7025bfb0.png" alt="image.png"/></figure>
+
+
+<h5 class="wp-block-heading wp-block-heading" id="node-js"><strong>node.js</strong></h5>
+
+
+<p class="wp-block-paragraph ">&#21516;&#26679;&#26080;&#38656;&#36807;&#22810;&#37197;&#32622;&#65292;accept&#21518;&#19968;&#30452;&#28857;next</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/b3181734fa.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#23433;&#35013;&#23436;&#25104;&#21518;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/d5b82704b8.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#23436;&#25104;&#21518;<strong>&#37325;&#21551;&#30005;&#33041;</strong>&#65292;cmd&#20869;&#36755;&#20837;<code>node -v</code>&#65292;&#22914;&#26524;&#26174;&#31034;&#20197;&#19979;&#25991;&#23383;(v12.13.0)&#35828;&#26126;&#23433;&#35013;&#25104;&#21151;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/696e01ea64.png" alt="image.png"/></figure>
+
+
+<h5 class="wp-block-heading wp-block-heading" id="yarn"><strong>yarn</strong></h5>
+
+
+<p class="wp-block-paragraph ">&#19968;&#30452;&#28857;next</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/b95abb3bf6.png" alt="image.png"/></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/25843f58c7.png" alt="image.png"/></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/c888310914.png" alt="image.png"/></figure>
+
+
+<h5 class="wp-block-heading wp-block-heading" id="e4b889e38081-e9858de7bdae">&#19977;&#12289; &#37197;&#32622;</h5>
+
+
+<p class="wp-block-paragraph ">&#19978;&#38754;&#19977;&#20010;&#23433;&#35013;&#22909;&#21518;&#65292;&#22312;&#20219;&#24847;&#31354;&#25991;&#20214;&#30446;&#24405;&#65288;&#27880;&#24847;&#19981;&#35201;&#22312;&#31995;&#32479;&#30446;&#24405;&#20869;&#25805;&#20316;&#65289;&#65292;&#22320;&#22336;&#26639;&#36755;&#20837;<code>cmd</code>&#25171;&#24320;&#21629;&#20196;&#34892;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/ceb3afad1b.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#36755;&#20837;&#20197;&#19979;&#21629;&#20196;</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem"><span style="display:block;padding:16px 0 0 16px;margin-bottom:-1px;width:100%;text-align:left;background-color:#282A36"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle><circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle><circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle></g></svg></span><span role="button" tabindex="0" data-code="yarn config set registry https://registry.npm.taobao.org/  --global
+npm config set registry https://registry.npm.taobao.org/  --global
+:: 设置镜像源为淘宝镜像(双冒号后的语句均为注释)
+yarn global add @vue/cli
+:: 下载vue/cli包
+yarn global add @vue/cli-init " style="color:#F8F8F2;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v8.25A2.25 2.25 0 006 16.5h2.25m8.25-8.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-7.5A2.25 2.25 0 018.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 00-2.25 2.25v6"></path></svg></span><pre class="shiki dracula" style="background-color: #282A36" tabindex="0"><code><span class="line"><span style="color: #50FA7B">yarn</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">config</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">set</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">registry</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">https://registry.npm.taobao.org/</span><span style="color: #F8F8F2">  </span><span style="color: #BD93F9">--global</span></span>
+<span class="line"><span style="color: #50FA7B">npm</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">config</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">set</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">registry</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">https://registry.npm.taobao.org/</span><span style="color: #F8F8F2">  </span><span style="color: #BD93F9">--global</span></span>
+<span class="line"><span style="color: #8BE9FD">::</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">设置镜像源为淘宝镜像</span><span style="color: #F8F8F2">(</span><span style="color: #50FA7B">双冒号后的语句均为注释</span><span style="color: #F8F8F2">)</span></span>
+<span class="line"><span style="color: #50FA7B">yarn</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">global</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">add</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">@vue/cli</span></span>
+<span class="line"><span style="color: #8BE9FD">::</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">下载vue/cli包</span></span>
+<span class="line"><span style="color: #50FA7B">yarn</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">global</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">add</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">@vue/cli-init</span><span style="color: #F8F8F2"> </span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#282A36;color:#efefe1;font-size:12px;line-height:1;position:relative">ShellScript</span></div>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/7f3da61480.png" alt="image.png"/></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/121f37683c.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#26032;&#24314;&#24037;&#31243;&#21629;&#20196;</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem"><span style="display:block;padding:16px 0 0 16px;margin-bottom:-1px;width:100%;text-align:left;background-color:#282A36"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle><circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle><circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle></g></svg></span><span role="button" tabindex="0" data-code="vue init webpack test           
+:: test为项目名称" style="color:#F8F8F2;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v8.25A2.25 2.25 0 006 16.5h2.25m8.25-8.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-7.5A2.25 2.25 0 018.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 00-2.25 2.25v6"></path></svg></span><pre class="shiki dracula" style="background-color: #282A36" tabindex="0"><code><span class="line"><span style="color: #50FA7B">vue</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">init</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">webpack</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">test</span><span style="color: #F8F8F2">           </span></span>
+<span class="line"><span style="color: #8BE9FD">::</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">test为项目名称</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#282A36;color:#efefe1;font-size:12px;line-height:1;position:relative">ShellScript</span></div>
+
+
+<p class="wp-block-paragraph ">&#21069;&#38754;&#20960;&#20010;&#36873;&#39033;&#21487;&#20197;&#30452;&#25509;&#22238;&#36710;&#36339;&#36807;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/9a1aac9f12.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#21040;&#36825;&#37324;&#27880;&#24847;&#65292;&#36755;&#20837;<code>n</code>&#65292;&#19981;&#29992;ESlint</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/558b4ed38d.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#21518;&#38754;set up unit tests &#21644; setup e2e tests with Nightwatch&#20063;&#22635;<code>n</code><br><img decoding="async" style="width: 100%;" src="https://oj.szuea.com/public/upload/fc06df3a44.png" alt="image.png"><br><img decoding="async" style="width: 100%;" src="https://oj.szuea.com/public/upload/bc26ee5f5c.png" alt="image.png"></p>
+
+
+<p class="wp-block-paragraph ">&#36825;&#37324;&#29992;&#26041;&#21521;&#38190;&#36873;&#25321;<code>Yes, use Yarn</code>&#65292;&#22238;&#36710;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/fbc1f060ba.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#20043;&#21518;&#24320;&#22987;&#39033;&#30446;&#30340;&#23433;&#35013;&#36807;&#31243;&#65292;&#35831;&#32784;&#24515;&#31561;&#24453;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/9a78b6be92.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#23433;&#35013;&#23436;&#25104;&#21518;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/cd3597fcc0.png" alt="image.png"/></figure>
+
+
+<h5 class="wp-block-heading wp-block-heading" id="e59b9be38081e8bf90e8a18c">&#22235;&#12289;&#36816;&#34892;</h5>
+
+
+<p class="wp-block-paragraph ">&#23436;&#25104;&#20197;&#19978;&#27493;&#39588;&#21518;&#65292;cmd&#20869;&#25191;&#34892;&#20197;&#19979;&#21629;&#20196;</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro padding-bottom-disabled" data-code-block-pro-font-family="Code-Pro-JetBrains-Mono" style="font-size:.875rem;font-family:Code-Pro-JetBrains-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.25rem"><span style="display:block;padding:16px 0 0 16px;margin-bottom:-1px;width:100%;text-align:left;background-color:#282A36"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle><circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle><circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle></g></svg></span><span role="button" tabindex="0" data-code="cd test
+:: 进入test目录，如果已经进入该目录则忽略
+yarn run dev
+:: 启动" style="color:#F8F8F2;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v8.25A2.25 2.25 0 006 16.5h2.25m8.25-8.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-7.5A2.25 2.25 0 018.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 00-2.25 2.25v6"></path></svg></span><pre class="shiki dracula" style="background-color: #282A36" tabindex="0"><code><span class="line"><span style="color: #8BE9FD">cd</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">test</span></span>
+<span class="line"><span style="color: #8BE9FD">::</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">进入test目录，如果已经进入该目录则忽略</span></span>
+<span class="line"><span style="color: #50FA7B">yarn</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">run</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">dev</span></span>
+<span class="line"><span style="color: #8BE9FD">::</span><span style="color: #F8F8F2"> </span><span style="color: #F1FA8C">启动</span></span></code></pre><span style="display:flex;align-items:flex-end;padding:10px;width:100%;justify-content:flex-end;background-color:#282A36;color:#efefe1;font-size:12px;line-height:1;position:relative">ShellScript</span></div>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/f77223dfbc.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#20986;&#29616;&#20197;&#19979;&#25991;&#23383;&#21017;&#35828;&#26126;&#39033;&#30446;&#25104;&#21151;&#21551;&#21160;&#22312;<code>localhost:8080</code><br><img decoding="async" style="width: 100%;" src="https://oj.szuea.com/public/upload/b6b41da2dc.png" alt="image.png"></p>
+
+
+<p class="wp-block-paragraph ">&#27880;&#24847;&#27492;&#26102;&#19981;&#33021;&#20851;&#25481;&#35813;&#21629;&#20196;&#34892;&#31383;&#21475;&#65292;&#21542;&#21017;&#20250;&#36896;&#25104;&#39033;&#30446;&#36827;&#31243;&#32467;&#26463;</p>
+
+
+<p class="wp-block-paragraph ">&#20043;&#21518;&#21482;&#38656;&#29992;&#27983;&#35272;&#22120;&#35775;&#38382;<a href="http://localhost:8080/" target="_blank" rel="noopener">http://localhost:8080/</a>&#21363;&#21487;&#30475;&#35265;&#20197;&#19979;&#39029;&#38754;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/784a460050.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#22312;&#21629;&#20196;&#34892;&#31383;&#21475;&#20869;&#25353;&#20004;&#27425;&#24555;&#25463;&#38190; Ctrl + C &#21363;&#21487;&#36864;&#20986;&#39033;&#30446;</p>
+
+
+<p class="wp-block-paragraph ">&#20197;&#21518;&#24819;&#37325;&#26032;&#36816;&#34892;&#21482;&#38656;&#35201;&#20877;&#36827;&#20837;test&#25991;&#20214;&#22841;&#20869;&#65292;&#36827;&#20837;<code>cmd</code>&#65292; &#25191;&#34892;<code>yarn run dev</code>&#23601;&#34892;</p>
+<p><a rel="nofollow" href="/2023/07/29/vue%e5%89%8d%e7%ab%af%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae/">Vue前端开发环境配置</a>最先出现在<a rel="nofollow" href="/">SZUEA</a>。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2023/07/29/vue%e5%89%8d%e7%ab%af%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>C/C++开发环境配置</title>
+		<link>/2023/07/29/c-c%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae/</link>
+					<comments>/2023/07/29/c-c%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae/#respond</comments>
+		
+		<dc:creator><![CDATA[SZUEA]]></dc:creator>
+		<pubDate>Fri, 28 Jul 2023 17:26:27 +0000</pubDate>
+				<category><![CDATA[未分类]]></category>
+		<category><![CDATA[环境配置]]></category>
+		<guid isPermaLink="false">http://szuea.com:8081/?p=162</guid>
+
+					<description><![CDATA[<p>&#19968;&#12289; &#21069;&#26399;&#20934;&#22791; &#234 &#8230;</p>
+<p><a rel="nofollow" href="/2023/07/29/c-c%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae/">C/C++开发环境配置</a>最先出现在<a rel="nofollow" href="/">SZUEA</a>。</p>
+]]></description>
+										<content:encoded><![CDATA[<h4 class="wp-block-heading wp-block-heading" id="e4b880e38081-e5898de69c9fe58786e5a487">&#19968;&#12289; &#21069;&#26399;&#20934;&#22791;</h4>
+
+
+<h5 class="wp-block-heading wp-block-heading" id="e5ae89e8a385mingw"><strong>&#23433;&#35013;Mingw</strong></h5>
+
+
+<ul style="" class="wp-block-list ">
+<li>&#19979;&#36733;</li>
+</ul>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/1df057e6fe.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#20174;&#38468;&#24405;&#20013;&#19979;&#36733;&#33258;&#24049;&#31995;&#32479;&#23545;&#24212;&#29256;&#26412;&#30340;mingw</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/3ffc0be3b5.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#28982;&#21518;&#30452;&#25509;&#35299;&#21387;&#21040;C&#30424;&#30446;&#24405;&#19979;,&#19981;&#20570;&#20219;&#20309;&#20462;&#25913;&#65292;&#22914;&#19979;&#22270;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/33b4674991.png" alt="image.png"/></figure>
+
+
+<ul style="" class="wp-block-list ">
+<li>&#23558;&#36335;&#24452;&#28155;&#21152;&#21040;&#29615;&#22659;&#21464;&#37327;</li>
+</ul>
+
+
+<p class="wp-block-paragraph ">&#21491;&#38190;&#25105;&#30340;&#30005;&#33041;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/9b1b7dc9e9.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#28857;&#20987;&#39640;&#32423;&#31995;&#32479;&#35774;&#32622;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/9d540d3b93.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#28857;&#20987;&#29615;&#22659;&#21464;&#37327;&#65292;&#22312;&#31995;&#32479;&#21464;&#37327;&#20013;&#25214;&#21040;Path&#65292;&#22914;&#19979;&#22270;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/dcd6842f8c.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#28982;&#21518;&#22312;Path&#20013;&#26032;&#24314;&#19968;&#20010;&#21464;&#37327;&#65292;&#23558;&#19979;&#38754;&#30340;&#36335;&#24452;&#22797;&#21046;&#36827;&#21435;&#65292;&#28982;&#21518;&#19968;&#30452;&#28857;&#20987;&#30830;&#23450;</p>
+
+
+
+<pre class="wp-block-code"><code>    C:\mingw\bin
+
+</code></pre>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/7da5f45f7b.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#22312;cmd&#20013;&#36816;&#34892; gcc -v&#65292;&#32467;&#26524;&#22914;&#19979;&#22270;&#21017;&#23433;&#35013;&#25104;&#21151;&#12290;</p>
+
+
+
+<pre class="wp-block-code"><code> gcc -v
+
+</code></pre>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/3b6010f051.png" alt="image.png"/></figure>
+
+
+<h4 class="wp-block-heading wp-block-heading" id="e4ba8ce38081vscodee79a84e5ae89e8a385">&#20108;&#12289;VsCode&#30340;&#23433;&#35013;</h4>
+
+
+<ul style="" class="wp-block-list ">
+<li>&#22312;&#38468;&#24405;&#20013;&#19979;&#36733;Vscode&#24182;&#23433;&#35013;</li>
+</ul>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/f9bf870a7f.png" alt="image.png"/></figure>
+
+
+<ul style="" class="wp-block-list ">
+<li>&#23433;&#35013;&#23436;&#25104;&#21518;&#23433;&#35013;&#25554;&#20214;&#65292;&#22914;&#19979;&#22270;&#25152;&#31034;</li>
+</ul>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/7f72fca1df.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#23433;&#35013;&#31616;&#20307;&#20013;&#25991;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/6136b8c48d.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#23433;&#35013;code runner</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/68864f9d9c.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#23433;&#35013;code runner&#21518;&#65292;&#22312;&#35774;&#32622;&#20013;&#23436;&#25104;&#22914;&#19979;&#25805;&#20316;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/b25d3f6bbd.png" alt="image.png"/></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/133ac951d3.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#27492;&#26102;&#21487;&#26032;&#24314;&#19968;&#20010;&#24037;&#20316;&#30446;&#24405;&#22312;&#20219;&#24847;&#20320;&#24819;&#35201;&#30340;&#20301;&#32622;&#65292;&#24182;&#26032;&#24314;&#19968;&#20010;C&#25110;Cpp&#25991;&#20214;&#65292;&#36816;&#34892;&#22914;&#19979;&#20195;&#30721;&#36827;&#34892;&#27979;&#35797;</p>
+
+
+
+<pre class="wp-block-code"><code>
+#include &lt;stdio.h&gt;
+
+int main(){
+
+printf("test");
+
+}
+
+</code></pre>
+
+
+<p class="wp-block-paragraph ">&#21491;&#38190;&#36816;&#34892;&#25110;&#32773;&#28857;&#20987;&#21491;&#19978;&#35282;&#22270;&#26631;&#65292;&#33509;&#32467;&#26524;&#22914;&#22270;&#25152;&#31034;&#21017;&#25645;&#24314;&#23436;&#25104;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/27306d3ebc.png" alt="image.png"/></figure>
+
+
+<h5 class="wp-block-heading wp-block-heading" id="vscode-e8b083e8af95e78eafe5a283e79a84e690ade5bbbaefbc88e58fafe98089efbc8ce4b88de68ea8e88d90e4bdbfe794a8vscode-debugefbc89">Vscode &#35843;&#35797;&#29615;&#22659;&#30340;&#25645;&#24314;&#65288;&#21487;&#36873;&#65292;&#19981;&#25512;&#33616;&#20351;&#29992;Vscode debug&#65289;</h5>
+
+
+<p class="wp-block-paragraph ">&#20808;&#22312;&#25554;&#20214;&#20013;&#19979;&#36733;C/Cpp&#29615;&#22659;&#25554;&#20214;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/ff8b9ddf2c.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#20174;&#38468;&#24405;&#20013;&#19979;&#36733;.Vscode.zip debug&#35774;&#32622;&#25991;&#20214;,&#23558;&#20854;&#35299;&#21387;&#21040;&#20219;&#24847;&#25991;&#20214;&#22841;&#20013;&#65288;&#27880;&#24847;&#25991;&#20214;&#22841;&#21517;&#23383;&#21450;&#36335;&#24452;&#22343;&#19981;&#33021;&#20986;&#29616;&#20013;&#25991;&#65289;&#65292;&#22312;&#25991;&#20214;&#22841;&#21516;&#32423;&#30446;&#24405;&#37324;&#25918;&#20320;&#35201;&#36816;&#34892;&#30340;.c .cpp&#25991;&#20214;</p>
+
+
+<p class="wp-block-paragraph ">&#30475;&#19979;&#22270; .vscode&#25991;&#20214;&#22841;&#21644;.c&#25991;&#20214;&#26159;&#22312;&#21516;&#32423;&#30446;&#24405;&#20013;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/ba0b658f47.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#25171;&#24320;vscode&#65292; &#22312;vscode&#20013;&#25171;&#24320;&#25991;&#20214;&#22841;&#37324;&#20219;&#24847;C/Cpp&#25991;&#20214; &#27492;&#26102;&#40664;&#35748;&#25991;&#20214;&#20026;&#32431;&#25991;&#26412;&#27169;&#24335;&#65292; &#28857;&#20987;&#25353;&#38062;&#20999;&#25442;&#21040;C&#35821;&#35328;&#25110;&#32773;C++</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/b4b5048030.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#25353;F5&#36827;&#34892;&#32534;&#35793;,&#30475;&#26159;&#21542;&#33021;&#22815;&#32534;&#35793;&#36816;&#34892;</p>
+
+
+<p class="wp-block-paragraph ">&#25171;&#19978;&#26029;&#28857;,&#30475;&#26159;&#21542;&#33021;&#25104;&#21151;debug</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/3274b06d4d.png" alt="image.png"/></figure>
+
+
+<h4 class="wp-block-heading wp-block-heading" id="e4b889e38081clion-e5ae89e8a385e58f8ae9858de7bdae">&#19977;&#12289;Clion &#23433;&#35013;&#21450;&#37197;&#32622;</h4>
+
+
+<p class="wp-block-paragraph ">&#20174;&#38468;&#20214;&#19979;&#36733;Jetbrains-Toolbox &#24182;&#23433;&#35013;&#65292;&#27880;&#20876;&#30331;&#24405;&#65292;&#24182;&#19988;&#29992;&#23398;&#29983;&#37038;&#31665;&#36827;&#34892;&#39564;&#35777;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/43c842edf7.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#23433;&#35013;Clion&#20043;&#21069;,&#22914;&#19978;&#22270;&#25152;&#31034;&#20462;&#25913;&#40664;&#35748;&#23433;&#35013;&#36335;&#24452;,&#36335;&#24452;&#19981;&#35201;&#26377;&#20013;&#25991;&#23383;&#31526;&#21644;&#31354;&#26684;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/c9d66372f0.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#37197;&#32622;&#35774;&#32622;&#22914;&#19979;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/ce9ff354a6.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#30452;&#25509;&#19979;&#19968;&#27493;&#30452;&#21040;&#23433;&#35013;&#23436;&#25104;</p>
+
+
+<p class="wp-block-paragraph ">&#22914;&#26524;&#31532;&#19968;&#27493;&#25353;&#29031;&#26412;&#25945;&#31243;&#25104;&#21151;&#35774;&#32622;&#65292;&#31532;&#19968;&#27425;&#36827;&#20837;Clion&#21363;&#21487;&#26816;&#27979;&#24182;&#33258;&#21160;&#23436;&#25104;&#29615;&#22659;&#37197;&#32622;&#65292;&#37197;&#32622;&#22823;&#27010;&#22914;&#22270;&#25152;&#31034;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/cdd47f7a33.png" alt="image.png"/></figure>
+
+
+<p class="wp-block-paragraph ">&#26032;&#24314;C++&#24037;&#31243;&#65292;&#36816;&#34892;&#20195;&#30721;&#36827;&#34892;&#27979;&#35797;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/d4b6df67b3.png" alt="image.png"/></figure>
+
+
+<h4 class="wp-block-heading wp-block-heading" id="e59b9be38081e585b6e4bb96e997aee9a298">&#22235;&#12289;&#20854;&#20182;&#38382;&#39064;</h4>
+
+
+<p class="wp-block-paragraph ">&#33509;Vscode&#36755;&#20986;&#20013;&#25991;&#20081;&#30721;&#65292;&#22312;&#21491;&#19979;&#35282;&#25913;&#20026;GBK&#32534;&#30721;</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://oj.szuea.com/public/upload/24e653ee9c.png" alt="image.png"/></figure>
+
+
+<h4 class="wp-block-heading wp-block-heading" id="e4ba94e38081e99984e5bd95e28094e28094e8bdafe4bbb6e4b88be8bdbd">&#20116;&#12289;&#38468;&#24405;&mdash;&mdash;&#36719;&#20214;&#19979;&#36733;</h4>
+
+
+<ul style="" class="wp-block-list ">
+<li>
+<strong>ToolBox&#19979;&#36733;</strong><a href="https://www.jetbrains.com/zh-cn/toolbox-app/" target="_blank" rel="noopener">Jetbrains-Toolbox</a>
+</li>
+
+
+
+<li>
+<strong>mingw&#19979;&#36733;</strong>
+<pre><code>&#20197;&#19979;&#26681;&#25454;&#33258;&#24049;&#31995;&#32479;&#36873;&#25321;&#23433;&#35013;               
+
+</code></pre>
+<p><a href="https://pan.baidu.com/s/1t3DOJydsSWPKrTmsJQuRSw" target="_blank" rel="noopener">mingw_x86_64&#20301;&#31995;&#32479;.zip(&#25552;&#21462;&#30721;:EAOJ)</a><br><a href="https://pan.baidu.com/s/1hLaJw1Ug0novmAZiWLiuUg" target="_blank" rel="noopener">mingw_32&#20301;&#31995;&#32479;.zip(&#25552;&#21462;&#30721;:EAOJ)</a></p>
+</li>
+
+
+
+<li>
+<strong>vscode&#19979;&#36733;</strong><a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener">VSCode</a>
+<p>.vscode.zip</p>
+</li>
+
+
+
+<li>
+<a href="https://cmake.org/download/" target="_blank" rel="noopener">cmake</a>&#65288;&#36866;&#29992;&#20110;64&#20301;Windows&#65292;CLion&#29992;&#65289;</li>
+</ul>
+<p><a rel="nofollow" href="/2023/07/29/c-c%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae/">C/C++开发环境配置</a>最先出现在<a rel="nofollow" href="/">SZUEA</a>。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2023/07/29/c-c%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
